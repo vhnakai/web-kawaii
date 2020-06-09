@@ -1,0 +1,128 @@
+#page-home {
+  height: 100vh;
+  background-color: #3f3a62;
+}
+
+#page-home .content {
+  width: 100%;
+  height: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#page-home .content header {
+  margin: 48px 0 0;
+}
+#page-home .content .container {
+  width: 100%;
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden
+  
+}
+#page-home .content .container  img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#page-home .content .container main {
+  flex: 1;
+  max-width: 560px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#page-home .content .container main h1 {
+  font-size: 54px;
+  color: #ec4b9c;
+}
+
+#page-home .content .container main p {
+  font-size: 24px;
+  margin-top: 24px;
+  line-height: 38px;
+  color: #feede3;
+}
+
+#page-home .content .container main a {
+  width: 100%;
+  max-width: 360px;
+  height: 72px;
+  background: #beb6ff;
+  border-radius: 8px;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  margin-top: 40px;
+}
+
+#page-home .content .container main a span {
+  display: block;
+  background: rgba(0, 0, 0, 0.08);
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+#page-home .content .container main a span svg {
+  color: #000;
+  width: 20px;
+  height: 20px;
+}
+
+#page-home .content .container main a strong {
+  flex: 1;
+  text-align: center;
+  color: #2a2842;
+}
+
+#page-home .content .container main a:hover {
+  background: #b09aff;
+}
+
+@media (max-width: 900px) {
+  #page-home .content {
+    align-items: center;
+    text-align: center;
+  }
+
+  #page-home .content header {
+    margin: 48px auto 0;
+  }
+
+  #page-home .content .container {
+    flex-direction: column;
+  }
+
+  #page-home .content .container main {
+    align-items: center;
+  }
+
+  #page-home .content .container main h1 {
+    font-size: 42px;
+  }
+
+  #page-home .content .container main p {
+    font-size: 24px;
+  }
+}
+
+
+
+
